@@ -6,6 +6,12 @@
   "assets": {
     "directory": ".",
     "binding": "ASSETS",
-    "run_worker_first": ["/api/*"]
+    "run_worker_first": [
+      "/api/*"
+    ]
+  },
+  "vars": {
+    "INFERENCE_URL": "https://llm-api.danielnotes.stream/v1/chat/completions",
+    "INFERENCE_MODEL": "inkling2-mini"
   }
 }
